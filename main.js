@@ -278,7 +278,7 @@ const init = () => {
       createjs.Tween.get(winner).to({ alpha: 1 }, 1300, createjs.Ease.circOut);
     }
   }
-  setTimeout(timeup, 10000);
+  setTimeout(timeup, 12000);
 
 }
 init();
