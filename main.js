@@ -210,7 +210,7 @@ const init = () => {
       // 寿命の判定
       if (particle.life <= 0) {
         stage.removeChild(particle);
-        particles.splice(p, 1);// 配列からも削除
+        particles.splice(p, 1);
       }
     }
   }
@@ -260,7 +260,6 @@ const init = () => {
       stage.removeChild(star);
     }
   }
-
 
   let timeup = () => {
     finish = true;//loop()内の処理へ
